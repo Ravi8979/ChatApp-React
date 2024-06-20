@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Chat App</title>
+  <!-- Import React and ReactDOM libraries -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Import Babel Standalone for JSX compilation -->
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+</head>
+<body>
+  <!-- Mount point for your React app -->
+  <div id="root"></div>
+  <!-- Script to import and render your App component -->
+  <script type="text/babel">
+    // Import your App component
+    import App from './App.js';
+
+    // Render your App component inside the 'root' div
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
